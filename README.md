@@ -12,7 +12,7 @@ dessus donc plutôt à l’image des jeux sur Game Boy comme par exemple A Link 
 avez le droit de vous inspirer largement des Zelda existants mais devez inventer votre propre
 univers. 
 
--  Les fonctionnalités prioritaires
+- Les fonctionnalités prioritaires
 Voici les fonctionnalités qui nous intéressent du point de vue pédagogique. Il faut donc que vous
 vous y intéressiez en priorité.
 
