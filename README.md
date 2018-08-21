@@ -1,6 +1,10 @@
 # Projet-2-DUT
 Projet de fin d'année de première année de DUT informatique
 
+Pour lancer le projet : 
+- telecharger le projet 
+- éxécuter le fichier iut_rampage.jar
+
 Projet de Groupe de 8 semaines 
 
 Consigne : 
