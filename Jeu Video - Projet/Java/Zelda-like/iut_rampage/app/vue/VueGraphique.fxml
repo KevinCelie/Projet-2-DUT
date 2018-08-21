@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane fx:id="pane" onKeyPressed="#keyPressedClavier" onKeyReleased="#keyReleasedClavier" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.161" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controleur.ControleurJeu">
+   <children>
+      <BorderPane fx:id="vueInventaire" accessibleRole="MENU" cacheShape="false" centerShape="false" layoutX="85.0" layoutY="74.0" onKeyPressed="#keyPressedClavier" prefHeight="450.0" prefWidth="627.0" scaleShape="false">
+         <center>
+            <GridPane gridLinesVisible="true" mouseTransparent="true" prefHeight="385.0" prefWidth="540.0" style="-fx-background-color: afc0d1;" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="gridim00" fitHeight="96.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="gridim01" fitHeight="96.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                  <ImageView fx:id="gridim02" fitHeight="96.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                  <ImageView fx:id="gridim03" fitHeight="96.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                  <ImageView fx:id="gridim04" fitHeight="94.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                  <ImageView fx:id="gridim10" fitHeight="93.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+                  <ImageView fx:id="gridim11" fitHeight="95.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <ImageView fx:id="gridim12" fitHeight="94.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <ImageView fx:id="gridim13" fitHeight="95.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <ImageView fx:id="gridim14" fitHeight="97.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <ImageView fx:id="gridim20" fitHeight="97.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+                  <ImageView fx:id="gridim21" fitHeight="93.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <ImageView fx:id="gridim22" fitHeight="97.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <ImageView fx:id="gridim23" fitHeight="97.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <ImageView fx:id="gridim24" fitHeight="97.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <ImageView fx:id="gridim30" fitHeight="93.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3" />
+                  <ImageView fx:id="gridim31" fitHeight="96.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <ImageView fx:id="gridim32" fitHeight="96.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <ImageView fx:id="gridim33" fitHeight="96.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <ImageView fx:id="gridim34" fitHeight="94.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+         </center>
+         <top>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#616b75" height="33.0" stroke="#616b75" strokeType="INSIDE" width="630.0" BorderPane.alignment="CENTER" />
+         </top>
+         <right>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#616b75" height="381.0" stroke="#616b75" strokeType="INSIDE" width="41.0" BorderPane.alignment="CENTER" />
+         </right>
+         <left>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#616b75" height="381.0" stroke="#616b75" strokeType="INSIDE" width="39.0" BorderPane.alignment="CENTER" />
+         </left>
+         <bottom>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#616b75" height="38.0" stroke="#616b75" strokeType="INSIDE" width="629.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</Pane>

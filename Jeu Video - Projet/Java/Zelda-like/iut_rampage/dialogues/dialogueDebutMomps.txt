@@ -1,0 +1,21 @@
+/Momps/
+Hé oh !!! Hé oh !!! Réveilles toi !
+/Joueur/
+Oh ! M.Momps, veuillez m'excuser, je me suis assoupi.
+/Momps/
+En effet je vois ça, et tu n'as rien entendu ?
+/Joueur/
+Non, aurais-je dû ?
+/Momps/
+Tu te souviens de ton professeur Grilain Meldas ? Il se fait maintenant appeler lord Grilain Meldas. Il a pris le contrôle des machines de l'IUT, nous sommes asservis par des laptop-garous et des unités centrales mutantes. 
+Il ne reste plus que nous ici, nous devons faire quelque chose. Toi, Dave Lopper et moi, Harc Momps, devons sauver cette IUT et arreter Grilain. Enfin... tu iras sans moi, je t'accompagnerai bien mais mon vieil âge me fait défaut.
+Bon tu dois juste trouver son repère, et le battre. C'est simple ou c'est pas compliqué ?
+Pour cela je te confie mon clavier, mais ce n'est pas n'importe quel clavier Dave, c'est un excalivier 2000, le plus rapide de l'ouest Montreuillois.
+Je te confie aussi ces quelques CD d'installation Windows, avec ça tu pourra alterer les ordinateurs qui t'attaqueront. 
+Tu vas devoir explorer le batiment jusqu'à trouver son repère.
+/Ordi/
+Pour se déplacer utiliser les flèches directionnelles.
+Pour attaquer utiliser la touche D.
+Pour changer d'arme utiliser la barre espace.
+Pour interagir avec quelque chose utiliser la touche F.
+pour ouvrir l'inventaire utiliser la touche I.
